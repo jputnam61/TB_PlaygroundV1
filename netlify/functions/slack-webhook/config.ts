@@ -1,0 +1,6 @@
+export const SLACK_CONFIG = {
+  WEBHOOK_URL: process.env.SLACK_WEBHOOK_URL,
+  MAX_RETRIES: 3,
+  RETRY_DELAY: 1000,
+  TIMEOUT: 5000
+};
